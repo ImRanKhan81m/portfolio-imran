@@ -27,6 +27,7 @@ h1{
     font-size: 18px;
     line-height: 2em;
     margin-bottom: 40px;
+    color: rgb(119, 119, 119);
 }
 .hireMebtn {
     text-decoration: none;
@@ -41,3 +42,32 @@ h1{
    background-image: linear-gradient(tomato, orange);
 }
 
+section{
+    margin-bottom: 130px;
+}
+.dream-big{
+    display: flex;
+    padding: 30px;
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-img{
+    width: 50%;
+    padding-left: 5%;
+}
+.dream-img img{
+    width: 600px;
+}
+.dream-details{
+    width: 50%;
+    padding-left: 5%;
+    
+}
+.dream-details p{
+    font-size: 18px;
+    line-height: 2em;
+    margin-bottom: 40px;
+    width:90%;
+    color: rgb(119, 119, 119);
+}
