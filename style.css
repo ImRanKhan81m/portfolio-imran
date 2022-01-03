@@ -71,3 +71,72 @@ section{
     width:90%;
     color: rgb(119, 119, 119);
 }
+.experience{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-position-y: 300px;
+    background-size: 130px;
+}
+.experience .border{   
+    text-align: center; 
+    margin-bottom: 60px;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.full-stack{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:5px 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(128, 128, 128, 0.644);
+    transition: .5s;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.full-stack:hover{
+    box-shadow: 10px 10px 40px rgba(128, 128, 128, 0.959);
+}
+.baby-developer{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:5px 40px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(128, 128, 128, 0.644);
+    transition: .5s;
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,tomato,orange);
+    border-image-slice: 1;
+}
+.baby-developer:hover{
+    box-shadow: 10px 10px 40px rgba(128, 128, 128, 0.959);
+}
+.full-stack p, .baby-developer p{
+    font-size: 18px;
+    line-height: 2em;
+    margin-bottom: 40px;
+    width:90%;
+    color: rgb(119, 119, 119);
+}
+.full-stack h3{
+    color: orange;
+}
+.baby-developer h3{
+    color: orange;
+}
+footer .copyright{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: #222;
+    padding: 30px;
+    margin-bottom: 0;
+}
+footer .copyright span{
+    color: orange;
+}
